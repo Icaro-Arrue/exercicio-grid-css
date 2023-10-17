@@ -1,0 +1,60 @@
+
+*{
+    background-color: rgb(250, 250, 251);
+    font-family: 'Mukta', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color:blueviolet
+}
+    
+#foto{
+    position: relative;
+    margin-left: 29em;
+    justify-content: flex-center;
+}
+
+
+h1{
+    animation-name: head;
+    animation-duration: 5s;
+    animation-iteration-count: initial;
+}
+
+@keyframes head {
+    from{
+        background-color: rgb(131, 159, 197);
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
+
+.centro{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+b{
+    background-color:rgb(181, 166, 228);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: rgb(181, 166, 228)
+    }
+}
